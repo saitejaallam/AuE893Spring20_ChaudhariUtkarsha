@@ -263,6 +263,12 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
 //Value Computed by CMake
+assignment2_ws_BINARY_DIR:STATIC=/home/utkarsha/AuE893Spring20_ChaudhariUtkarsha/catkin_ws/build/assignment2_ws
+
+//Value Computed by CMake
+assignment2_ws_SOURCE_DIR:STATIC=/home/utkarsha/AuE893Spring20_ChaudhariUtkarsha/catkin_ws/src/assignment2_ws
+
+//Value Computed by CMake
 beginner_tutorials_BINARY_DIR:STATIC=/home/utkarsha/AuE893Spring20_ChaudhariUtkarsha/catkin_ws/build/beginner_tutorials
 
 //Value Computed by CMake
@@ -273,6 +279,9 @@ catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/utkarsha/AuE893Spring20_ChaudhariUtkarsha/catkin_ws/build/gtest
@@ -315,7 +324,7 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/kinetic/lib/librostime.so
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
